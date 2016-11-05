@@ -23,7 +23,7 @@ AdyenDL is available through a gradle task. To install it, follow the steps belo
 
 1. In your `build.gradle` of the root directory add the following line:
     
-    ```json
+    ```gradle
     buildscript {
         repositories {
             ...
@@ -38,7 +38,7 @@ AdyenDL is available through a gradle task. To install it, follow the steps belo
     
 2. In your `build.gradle` of the app module add the following task:
 
-    ```json
+    ```gradle
     import de.undercouch.gradle.tasks.download.Download
     
     ...
@@ -52,7 +52,7 @@ AdyenDL is available through a gradle task. To install it, follow the steps belo
    
 3. Next, add the following snippet in your `build.gradle` of the app module:
 
-    ```json
+    ```gradle
     repositories {
         flatDir {
             dirs 'libs'
